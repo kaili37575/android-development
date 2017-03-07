@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HW3</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="color">Color</string>
+    <string name="delete">Delete</string>
+    <string name="draw">Draw</string>
+    <string name="green">Green</string>
+    <string name="mode">Mode</string>
+    <string name="move">Move</string>
+    <string name="red">Red</string>
+</resources>

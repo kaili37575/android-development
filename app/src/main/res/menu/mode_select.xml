@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:actionMenu="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:title="@string/color"
+            actionMenu:showAsAction="ifRoom"
+            android:id="@+id/pen" >
+            <menu >
+                <group android:id="@+id/pengroup">
+                    <item android:title="@string/black"
+                        android:id="@+id/blackpen" />
+                    <item android:title="@string/red"
+                        android:id="@+id/redpen" />
+                    <item android:title="@string/green"
+                        android:id="@+id/greenpen" />
+                    <item android:title="@string/blue"
+                        android:id="@+id/bluepen" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="@string/mode"
+            actionMenu:showAsAction="ifRoom"
+            android:id="@+id/mode" >
+            <menu >
+                <group android:id="@+id/modegroup">
+                    <item android:title="@string/draw"
+                        android:id="@+id/draw" />
+                    <item android:title="@string/move"
+                        android:id="@+id/move" />
+                    <item android:title="@string/delete"
+                        android:id="@+id/delete" />
+                </group>
+            </menu>
+        </item>
+
+
+</menu>
